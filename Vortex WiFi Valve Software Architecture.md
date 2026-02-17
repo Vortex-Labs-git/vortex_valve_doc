@@ -80,11 +80,12 @@
 Login Request
 
 * When the user enters their username and password and taps **Sign In**, the mobile app sends a REST post request to **login.php** :  
+```json
   **{**  
     **"username": "testuser",**  
     **"password": "mypassword123"**  
   **}**
-
+```
 Server Response (Successful Authentication)
 
 * If the credentials are valid, the server responds with:  
